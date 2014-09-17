@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b344cc95-799d-40af-a7f5-0893ef0067f5" name="ChetanBadhe@CHETANBADHE-PC 2014-09-16 22:14:35" runUser="ChetanBadhe-PC\ChetanBadhe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="15fb7c02-8048-47b3-ab4d-8203306c1aa3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ChetanBadhe_CHETANBADHE-PC 2014-09-16 22_14_35">
+      <DeploymentItem filename="C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\KTLDemo\bin\KTLDemo.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-16T22:14:35.7915971-07:00" queuing="2014-09-16T22:14:39.1547894-07:00" start="2014-09-16T22:14:39.4468061-07:00" finish="2014-09-16T22:14:41.0248964-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\chetanbadhe.chetanbadhe-pc\desktop\ktldemo\testproject1\bin\debug\testproject1.dll" id="c906b79e-29e5-7017-de32-17653d58877b">
+      <Execution id="22a1a232-e552-439a-a394-4399cacd31e7" />
+      <TestMethod codeBase="C:/Users/ChetanBadhe.ChetanBadhe-PC/Desktop/KTLDemo/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1._DefaultTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c906b79e-29e5-7017-de32-17653d58877b" executionId="22a1a232-e552-439a-a394-4399cacd31e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="22a1a232-e552-439a-a394-4399cacd31e7" testId="c906b79e-29e5-7017-de32-17653d58877b" testName="TestMethod1" computerName="CHETANBADHE-PC" duration="00:00:00.4052718" startTime="2014-09-16T22:14:39.6148157-07:00" endTime="2014-09-16T22:14:40.9568925-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22a1a232-e552-439a-a394-4399cacd31e7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1._DefaultTest.TestMethod1 threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at KTLDemo.Model.DCOrdersDataContext..ctor() in C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\KTLDemo\Model\DCOrders.designer.cs:line 47
+   at KTLDemo._Default..ctor() in C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\KTLDemo\Default.aspx.cs:line 13
+   at TestProject1._DefaultTest.TestMethod1() in C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject1\_DefaultTest.cs:line 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

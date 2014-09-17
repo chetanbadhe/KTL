@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e757c33d-758a-4f13-a4d0-34f4b374b03f" name="Chetan@CHETANBADHE-PC 2014-09-16 22:57:27" runUser="ChetanBadhe-PC\Chetan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="15fb7c02-8048-47b3-ab4d-8203306c1aa3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Chetan_CHETANBADHE-PC 2014-09-16 22_57_27">
+      <DeploymentItem filename="C:\Users\Chetan\Desktop\KTLDemo\KTLDemo\bin\KTLDemo.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-16T22:57:27.4436871-07:00" queuing="2014-09-16T22:57:27.6787006-07:00" start="2014-09-16T22:57:27.7057021-07:00" finish="2014-09-16T22:57:28.0687229-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateDataContext_ConnectionString_ReturnsDataContextObject" storage="c:\users\chetan\desktop\ktldemo\testproject1\bin\debug\testproject1.dll" id="452ff378-94b3-5a6a-6cdb-ebb55fc590e6">
+      <Execution id="f01f9f39-f11c-4079-8043-23fbd5bc09e6" />
+      <TestMethod codeBase="C:/Users/Chetan/Desktop/KTLDemo/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1._DefaultTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateDataContext_ConnectionString_ReturnsDataContextObject" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="452ff378-94b3-5a6a-6cdb-ebb55fc590e6" executionId="f01f9f39-f11c-4079-8043-23fbd5bc09e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f01f9f39-f11c-4079-8043-23fbd5bc09e6" testId="452ff378-94b3-5a6a-6cdb-ebb55fc590e6" testName="CreateDataContext_ConnectionString_ReturnsDataContextObject" computerName="CHETANBADHE-PC" duration="00:00:00.1065351" startTime="2014-09-16T22:57:27.7137026-07:00" endTime="2014-09-16T22:57:28.0007190-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f01f9f39-f11c-4079-8043-23fbd5bc09e6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

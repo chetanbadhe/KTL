@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="27fa65d2-b71e-48d0-93cf-50993fef1d74" name="ChetanBadhe@CHETANBADHE-PC 2014-09-16 22:07:47" runUser="ChetanBadhe-PC\ChetanBadhe" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="15fb7c02-8048-47b3-ab4d-8203306c1aa3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ChetanBadhe_CHETANBADHE-PC 2014-09-16 22_07_47" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-16T22:07:47.0312173-07:00" queuing="2014-09-16T22:07:52.5155310-07:00" start="2014-09-16T22:07:52.7335434-07:00" finish="2014-09-16T22:08:06.8133488-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\chetanbadhe.chetanbadhe-pc\desktop\ktldemo\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="aef99be4-4cec-4b4a-8fd5-4f74bead6a4a" />
+      <TestMethod codeBase="C:/Users/ChetanBadhe.ChetanBadhe-PC/Desktop/KTLDemo/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="aef99be4-4cec-4b4a-8fd5-4f74bead6a4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="aef99be4-4cec-4b4a-8fd5-4f74bead6a4a" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="CHETANBADHE-PC" duration="00:00:11.5439288" startTime="2014-09-16T22:07:53.0375608-07:00" endTime="2014-09-16T22:08:06.5213321-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aef99be4-4cec-4b4a-8fd5-4f74bead6a4a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

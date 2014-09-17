@@ -1,0 +1,7 @@
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject1\obj\Debug\TestProject1.pdb
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject1\bin\Debug\KTLDemo.dll
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject1\bin\Debug\KTLDemo.pdb

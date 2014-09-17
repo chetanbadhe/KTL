@@ -1,0 +1,5 @@
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject\bin\Debug\TestProject.dll
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject\bin\Debug\TestProject.pdb
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject\obj\Debug\TestProject.dll
+C:\Users\ChetanBadhe.ChetanBadhe-PC\Desktop\KTLDemo\TestProject\obj\Debug\TestProject.pdb

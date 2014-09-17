@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f5fdc291-16ee-48ef-9d0f-b6b3e28f98de" name="Chetan@CHETANBADHE-PC 2014-09-16 23:13:27" runUser="ChetanBadhe-PC\Chetan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="15fb7c02-8048-47b3-ab4d-8203306c1aa3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Chetan_CHETANBADHE-PC 2014-09-16 23_13_27">
+      <DeploymentItem filename="C:\Users\Chetan\Desktop\KTLDemo\KTLDemo\bin\KTLDemo.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-16T23:13:27.9046224-07:00" queuing="2014-09-16T23:13:31.6108343-07:00" start="2014-09-16T23:13:31.6318355-07:00" finish="2014-09-16T23:13:31.9818556-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\chetan\desktop\ktldemo\testproject1\bin\debug\testproject1.dll" id="c906b79e-29e5-7017-de32-17653d58877b">
+      <Execution id="22b5c759-db59-4211-aab4-4b9364d375d8" />
+      <TestMethod codeBase="C:/Users/Chetan/Desktop/KTLDemo/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1._DefaultTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c906b79e-29e5-7017-de32-17653d58877b" executionId="22b5c759-db59-4211-aab4-4b9364d375d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="22b5c759-db59-4211-aab4-4b9364d375d8" testId="c906b79e-29e5-7017-de32-17653d58877b" testName="TestMethod1" computerName="CHETANBADHE-PC" duration="00:00:00.1247600" startTime="2014-09-16T23:13:31.6378359-07:00" endTime="2014-09-16T23:13:31.9418533-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22b5c759-db59-4211-aab4-4b9364d375d8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Collections.Generic.List`1[&lt;&gt;f__AnonymousType1`5[System.String,System.Int32,System.Nullable`1[System.DateTime],System.Nullable`1[System.Int32],System.Int32]]&gt;. </Message>
+          <StackTrace>   at TestProject1._DefaultTest.TestMethod1() in C:\Users\Chetan\Desktop\KTLDemo\TestProject1\_DefaultTest.cs:line 72
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
